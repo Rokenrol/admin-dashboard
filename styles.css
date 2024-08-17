@@ -13,6 +13,8 @@ body {
     grid-template-rows: repeat(10, 1fr);
 }
 
+/*** Header ***/
+
 .header {
     background-color: whitesmoke;
     grid-column: 2 / -1;
@@ -22,6 +24,8 @@ body {
     grid-template-rows: 1fr 1fr;
     align-items: center;
 }
+
+/* Input field and notifications */
 
 .input-container {
     grid-column: 1 / 2;
@@ -34,6 +38,18 @@ body {
     grid-row: 1;
     display: flex;
     gap: 5px;
+}
+
+/* Profile and profile options */
+
+.profile-info {
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+
+.profile-options {
+    grid-column: 2 / -1;
+    grid-row: 2;
 }
 
 .main {
