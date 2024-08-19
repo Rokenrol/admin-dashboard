@@ -31,6 +31,23 @@ body {
     grid-column: 1 / 2;
     grid-row: 1;
     justify-self: start;
+    display: flex;
+    align-items: center;
+}
+
+.input-container svg {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.input-container input {
+    background-color: rgb(226, 232, 240);
+    border: none;
+    border-radius: 15px;
+    width: 400px;
+    height: 25px;
 }
 
 .notification-area {
