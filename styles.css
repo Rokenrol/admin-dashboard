@@ -117,9 +117,27 @@ p.greeting > span {
     font-size: 1.3rem;
 }
 
+/* Profile options */
+
 .profile-options {
     grid-column: 2 / -1;
     grid-row: 2;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.profile-options button {
+    width: 85px;
+    height: 35px;
+    border: none;
+    border-radius: 1.1rem;
+    color: white;
+    background-color: rgb(25, 146, 212);
+    font-weight: bolder;
+
+
+
 }
 
 /*** Main section ***/
