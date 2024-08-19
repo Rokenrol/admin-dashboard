@@ -203,7 +203,7 @@ p.greeting > span {
     height: 20px;
   }
 
-/* Announcements and trending section */
+/* Announcements section */
 
   .container {
     display: grid;
@@ -250,12 +250,67 @@ p.greeting > span {
     border-bottom: none;
   }
 
+/* Trending section */
+
   .trending {
     grid-column: 1;
-    background-color: whitesmoke;
+    background-color: rgb(226, 232, 240);
+    margin: 0.6rem 2rem 2rem 1rem;
   }
 
+  .trending > h3 {
+    margin-bottom: 0.5rem;
+  }
 
+  .other-profiles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    color: #636363;
+    border-radius: 10px;
+    padding: 1rem;
+  }
+
+  .other-profiles > div {
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .other-profiles > div:first-child {
+    margin-top: 0;
+  }
+
+  div.name-status > p:first-child {
+    color: initial;
+    font-weight: 500;
+  }
+
+  .pp-image {
+    flex-shrink: 0;
+    background-color: tomato;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .other-profiles > div:nth-child(1) .pp-image {
+    background-color: tomato;
+  }
+
+  .other-profiles > div:nth-child(2) .pp-image {
+    background-color: rgb(250, 204, 21);
+}
+
+.other-profiles > div:nth-child(3) .pp-image {
+    background-color: salmon;
+}
+
+.other-profiles > div:nth-child(4) .pp-image {
+    background-color: lightgreen;
+}
 
 /*** Sidebar ***/
 
