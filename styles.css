@@ -46,7 +46,6 @@ body {
 .input-container {
     grid-column: 1 / 2;
     grid-row: 1;
-    justify-self: start;
     display: flex;
     align-items: center;
 }
@@ -59,10 +58,12 @@ body {
 }
 
 .input-container input {
+    flex: 1;
+    flex-basis: 20rem;
+    max-width: 40rem;
     background-color: rgb(226, 232, 240);
     border: none;
     border-radius: 15px;
-    width: 400px;
     height: 25px;
 }
 
@@ -72,7 +73,8 @@ body {
     grid-column: 2 / 3;
     grid-row: 1;
     display: flex;
-    gap: 30px;
+    flex-wrap: wrap;
+    gap: 2rem;
     justify-content: flex-end;
     align-items: center;
 }
@@ -139,8 +141,8 @@ p.greeting > span {
 }
 
 .profile-options button {
-    width: 85px;
-    height: 35px;
+    width: 5.3rem;
+    height: 2.2rem;
     border: none;
     border-radius: 1.1rem;
     color: white;
@@ -165,11 +167,16 @@ p.greeting > span {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 40px 1fr 1fr 1fr;
+    background-color: rgb(226, 232, 240);
 }
 
 .projects-section > p {
     grid-column: span 2;
     grid-row: 1;
+    align-self: end;
+    font-size: large;
+    font-weight: 700;
+    margin-left: 10px;
   }
 
   .card {
