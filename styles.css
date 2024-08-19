@@ -28,6 +28,17 @@ body {
     grid-template-columns: 3fr 2fr;
     grid-template-rows: 1fr 1fr;
     align-items: center;
+    padding-bottom: 0.5rem;
+}
+
+/* Margins to push header sections from the edges */
+
+.input-container, .profile-info {
+    margin-left: 2rem;
+}
+
+.notification-area, .profile-options {
+    margin-right: 2rem;
 }
 
 /* Input field and notifications */
@@ -135,10 +146,8 @@ p.greeting > span {
     color: white;
     background-color: rgb(25, 146, 212);
     font-weight: bolder;
-
-
-
 }
+
 
 /*** Main section ***/
 
