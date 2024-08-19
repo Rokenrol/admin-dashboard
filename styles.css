@@ -172,6 +172,25 @@ p.greeting > span {
     grid-row: 1;
   }
 
+  .card {
+    display: flex;
+    flex-direction: column;
+    border-left: 10px solid rgb(240, 180, 41);
+    border-radius: 10px;
+    background-color: white;
+    padding: 25px;
+    margin: 10px;
+}
+
+.card p {
+    flex: 1;
+    color: #636363;
+  }
+
+  .card-icons {
+    align-self: flex-end;
+  }
+
 /* Announcements and trending section */
 
   .container {
