@@ -189,6 +189,13 @@ p.greeting > span {
 
   .card-icons {
     align-self: flex-end;
+    display: flex;
+    gap: 15px;
+  }
+
+  .card-icons a > svg {
+    width: 20px;
+    height: 20px;
   }
 
 /* Announcements and trending section */
