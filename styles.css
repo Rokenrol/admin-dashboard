@@ -37,10 +37,6 @@ body {
     margin-left: 2rem;
 }
 
-.notification-area, .profile-options {
-    margin-right: 2rem;
-}
-
 /* Input field and notifications */
 
 .input-container {
@@ -77,6 +73,7 @@ body {
     gap: 2rem;
     justify-content: flex-end;
     align-items: center;
+    margin-right: 3.2rem;
 }
 
 .notification-area svg {
@@ -138,6 +135,7 @@ p.greeting > span {
     display: flex;
     gap: 20px;
     justify-content: flex-end;
+    margin-right: 2rem;
 }
 
 .profile-options button {
