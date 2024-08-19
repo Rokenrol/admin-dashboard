@@ -207,18 +207,55 @@ p.greeting > span {
 
   .container {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 40px 1fr 1fr;
+    background-color: rgb(226, 232, 240);
   }
-  
+
+  .container > p {
+    align-self: end;
+    margin-left: 1rem;
+    font-size: large;
+    font-weight: 700;
+    background-color: rgb(226, 232, 240);
+  }
+
   .announcements {
     display: grid;
-    grid-template-rows: 40px 1fr;
+    background-color: white;
+    margin: 0.6rem 2rem 2rem 1rem;
+    border-radius: 10px;
   }
-  
+
+  .announce-news {
+    align-self: center;
+    padding: 0 2rem;
+    font-size: smaller;
+  }
+
+  .announce-news > div {
+    border-bottom: 1px solid rgb(226, 232, 240);
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  .announce-news > div > p {
+    color: #636363;
+  }
+
+  .announce-news > div:first-child {
+    margin-top: none;
+  }
+
+  .announce-news > div:last-child {
+    border-bottom: none;
+  }
+
   .trending {
     grid-column: 1;
     background-color: whitesmoke;
   }
+
+
 
 /*** Sidebar ***/
 
