@@ -16,7 +16,7 @@ body {
 /*** Header ***/
 
 .header {
-    background-color: whitesmoke;
+    background-color: white;
     grid-column: 2 / -1;
     grid-row: 1 / 3;
     display: grid;
@@ -50,11 +50,34 @@ body {
     height: 25px;
 }
 
+/* Notification area */
+
 .notification-area {
     grid-column: 2 / 3;
     grid-row: 1;
     display: flex;
-    gap: 5px;
+    gap: 30px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.notification-area svg {
+    width: 20px;
+    height: 20px;
+}
+
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(250, 204, 21);
+    border-radius: 50%;
+}
+
+p.username {
+    font-weight: 900;
 }
 
 /* Profile and profile options */
