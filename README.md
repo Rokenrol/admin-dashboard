@@ -7,6 +7,11 @@ a deep understanding of CSS Grid. I struggled with positioning some elements on 
 in one container, also I didn't structure some sections properly so I had to rework them. I had some trouble with svgs too,
 never worked with them before in a project so that was another learning experience.
 
+I had one annoying problem - vertical scrollbar with slight vertical scroll issue on my page. I spent at least an hour trying to
+figure out what was the problem and I couldn't find it initially. Next morning when I had some rest I managed to find it almost
+instantly - problem was caused by hard-coded value of 40px for the first row of my .projects-section and .container grids.
+What a difference does it make when you look at the problem with a fresh mind.
+
 Some of the things I learned:
 
 - placing elements on the grid and better understanding of CSS Grid overall

@@ -165,7 +165,7 @@ p.greeting > span {
 .projects-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 40px 1fr 1fr 1fr;
+    grid-template-rows: 2.4rem 1fr 1fr 1fr;
     background-color: rgb(226, 232, 240);
 }
 
@@ -209,7 +209,7 @@ p.greeting > span {
 
   .container {
     display: grid;
-    grid-template-rows: 40px 1fr 1fr;
+    grid-template-rows: 2.4rem 1fr 1fr;
     background-color: rgb(226, 232, 240);
   }
 
