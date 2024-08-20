@@ -319,23 +319,94 @@ p.greeting > span {
 /*** Sidebar ***/
 
 .sidebar {
-    background-color: lightblue;
+    background-color: rgb(25, 146, 212);
     grid-column: 1;
     grid-row: 1 / -1;
     display: grid;
     grid-template-rows: 10% 3fr 2fr 2fr;  
 }
 
+.sidebar-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin: 0.7rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+}
+
+.sidebar-header span {
+    margin-top: 0.4rem;
+}
+
+.sidebar-header a > svg {
+    width: 40px;
+    height: 40px;
+}
+
+.sidebar-header a > svg path {
+    fill: white;
+}
+
 /* Dashboard options */
 
 .dash-options {
     display: grid;
+    align-items: end;
     grid-template-rows: repeat(7, 40px);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.dash-options div:first-child {
+    margin-top: 0;
+}
+
+.dash-options div {
+    margin-top: 10px;
+    margin-left: 1rem;
+    display: flex;
+}
+
+.dash-options div > a > svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.dash-options div > a > svg path {
+    fill: white;
 }
 
 /* Dashboard settings */
 
 .dash-settings {
     display: grid;
+    align-items: start;
     grid-template-rows: repeat(3, 40px);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.dash-settings div {
+    margin-left: 1rem;
+    display: flex;
+}
+
+.dash-settings div > a {
+    display: flex;
+    align-items: center;
+}
+
+.dash-settings div > a > svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.dash-settings div > a > svg path {
+    fill: white;
 }
